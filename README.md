@@ -39,14 +39,14 @@ API specs:
          userId: string // current user of the application
       }
 
-   Response:
-   {
-     prospectiveUsers: [
-      {
-         phoneNumber: string, // number of the contact not on app
-         prospectiveUsers: integer // their mutual friends that are on app
-      }
-     ]
-   }
-    
+      Response:
+       {
+         prospectiveUsers: [
+          {
+             phoneNumber: string, // number of the contact not on app
+             prospectiveUsers: integer // their mutual friends that are on app
+          }
+            ]
+    }
+        
 
