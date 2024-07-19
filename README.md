@@ -8,6 +8,7 @@ To run this application, you need to have Node.js installed on your system. Once
 
 ```sh
 node app.js
+```
 
 
 # Create two endpoints
